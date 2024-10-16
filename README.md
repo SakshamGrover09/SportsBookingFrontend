@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+### **College ID:** IIT2021188: Saksham Grover <br>
+### **College email:** iit2021188@iiita.ac.in <br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### **Frontend Deployment Link**: https://67101cf03a6926fdd55daaff--brilliant-gumdrop-d803b2.netlify.app <br>
+### **Frontend Deployment Link**: https://sportsbookingbackend.onrender.com/api <br>
 
-## Available Scripts
+## Sports Booking Frontend <br>
+This is the frontend for the Sports Booking App, built using React. It allows users to log in, view available sports centres, select sports, choose booking slots, and manage their bookings.
 
-In the project directory, you can run:
+# Directory Structure <br>
 
-### `npm start`
+sports-booking-frontend/ <br>
+│ <br>
+├── public/ <br>
+│   ├── index.html          // Main HTML template for React <br>
+│ <br>
+├── src/ <br>
+│   ├── components/ <br>
+│   │   ├── Navbar.js       // Navigation bar for the app <br>
+│   │   ├── BookingForm.js  // Form for submitting a booking <br>
+│   │   ├── Login.js        // User login form <br>
+│   │   ├── Register.js       // User signup form <br>
+│   │   ├── MyBooking.js  // Displays user’s bookings (upcoming and past) <br>
+│   │ <br>
+│   ├── Axios.js <br>
+│   │ <br>
+│   ├── api/ <br>
+│   │   ├── auth.js         // Handles API calls for user authentication <br>
+│   │   ├── bookings.js     // Handles API calls for booking operations <br>
+│   │   └── centres.js      // Handles API calls for centre data <br>
+│   │ <br>
+│   ├── App.js              // Root component with routing setup <br>
+│   ├── index.js            // Main entry point for React <br>
+├── .env                    // API URL configuration <br>
+├── package.json            // Project dependencies and scripts <br>
+└── README.md               // Documentation for the frontend <br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions <br>
 
-### `npm test`
+### Clone the Repository: <br>
+git clone https://github.com/your-repository/sports-booking-frontend.git <br>
+cd sports-booking-frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Install Dependencies: <br>
+npm install
 
-### `npm run build`
+### Create a .env File: <br>
+Add the backend API URL: <br>
+REACT_APP_API_URL=http://localhost:5000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Run the Development Server: <br>
+npm start <br>
+The app will be available at http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Features <br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+L**ogin & Signup:** Users can create an account or log in with an existing one. <br>
+**View Centres & Sports:** Users can view available sports centres and select sports. <br>
+**Book Slots:** Choose a date and time slot for booking a sport. <br>
+**View Bookings:** View upcoming and past bookings with details. <br>
 
-### `npm run eject`
+### Technologies Used <br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React, React Router <br>
+Context API for state management <br>
+Axios for API calls
+CSS for styling
