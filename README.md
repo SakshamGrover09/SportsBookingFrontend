@@ -2,7 +2,8 @@
 ### **College email:** iit2021188@iiita.ac.in <br>
 
 ### **Frontend Deployment Link**: https://67101cf03a6926fdd55daaff--brilliant-gumdrop-d803b2.netlify.app <br>
-### **Frontend Deployment Link**: https://sportsbookingbackend.onrender.com/api <br>
+### **Backend Deployment Link**: https://sportsbookingbackend.onrender.com/api <br>
+### **Backend Github Link**: https://github.com/SakshamGrover09/SportsBookingBackend <br>
 
 ## Sports Booking Frontend <br>
 This is the frontend for the Sports Booking App, built using React. It allows users to log in, view available sports centres, select sports, choose booking slots, and manage their bookings.
